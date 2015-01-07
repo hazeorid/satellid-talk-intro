@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+
+    <title>Introduction to Satellid Knowledge Manager by M Haidar Hanif</title>
+
+    <meta name="description" content="Introduction to Satellid Knowledge Management System/Platform">
+    <meta name="author" content="M Haidar Hanif">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- default css/tidy.css -->
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/night-space.css" id="theme">
+    <!-- default css/tidy.css -->
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/github.css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+
+        <section id="title" class="fragments" data-background="assets/backgrounds/abstract-space.jpg">
+          <h1><span class="satellid-logo big">Satellid</span></h1>
+          <p>The innovation and improvement in<br>knowledge management</p>
+          </aside>
+          <aside class="notes">
+            <ul>
+              <li>Bahasa, English, or bilingual?</li>
+              <li>Give the big picture what is going to talk about, so mostly the explanation is simplified.</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section id="about-presentation">
+          <img class="icon" height="300" width="300" src="assets/icons/happy.svg" onerror="this.src='assets/icons/happy.png'" alt="Happy slide">
+          <br>
+          <h4>This presentation is available at:</h4>
+          <a href="http://bit.ly/hazeorid-talk-satellid">http://bit.ly/hazeorid-talk-satellid</a>
+          <small>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="assets/cc-88x31.png"></a>
+            <br>This presentation is licensed under a
+            <br>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
+          </small>
+          <br>
+          <small class="credit">
+            "Happy slide icon" designed by <a href="http://thenounproject.com/Julihan">Julien Deveaux</a> from the <a href="http://thenounproject.com">Noun Project</a>
+          </small>
+        </section>
+
+        <section id="about-me">
+          <h2>Hello~!</h2>
+          <a class="image" href="https://keybase.io/mhaidarh" target="_blank">
+            <img class="avatar" height="200" width="200" src="assets/mhaidarh.png" alt="M Haidar Hanif's avatar">
+          </a>
+          <p>
+            M Haidar Hanif | Technology Generalist
+            <br>
+            <a href="https://twitter.com/mhaidarh">@mhaidarh</a>
+            <br>
+            <a href="https://google.com/+MHaidarHanif">+MHaidarHanif</a>
+            <br>
+            <a href="http://mhaidarhanif.org">http://mhaidarhanif.org</a>
+            <br>
+          </p>
+          <aside class="notes">
+            <ul>
+              <li>Quick introduction about personal identity.</li>
+              <li>Currently a generalist alias a student.</li>
+              <li>Will be software engineer/developer/designer.</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section id="story">
+          <h2>Let's begin with a story</h2>
+          <p>
+            of informatics student who is trying to solve a long time everyday problem: managing knowledge for various purposes in a rapid way
+          </p>
+          <aside class="notes">
+            <ul>
+              <li>Just a side story before and after getting problem around managin everyday knowledge.</li>
+              <li>And then I discovered the next stage of knowledge management and software/web development workflow and more.</li>
+            </ul>
+          </aside>
+        </section>
+        
+        <section id="problems1">
+          <h2>Problems? [1]</h2>
+          <p>
+Most knowledge information that we know are scattered across different documents, applications, and systems
+          </p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section id="problems2">
+          <h2>Problems? [2]</h2>
+          <p>
+Most people don't know how and where to start reading information or gathering knowledge for specific task, project, or development
+          </p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section id="problems3">
+          <h2>Problems? [3]</h2>
+          <p>
+Most tools are complicated or limited, also only lives in one system
+          </p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section id="problems4">
+          <h2>Problems? [4]</h2>
+          <p>
+Most text notes are not accurate, less precise, or not informative enough
+          </p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section id="problems5">
+          <h2>Problems? [5]</h2>
+          <p>
+Most systems remain just when online only and stuck within proprietary system
+         </p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section id="problems6">
+          <h2>Problems? [6]</h2>
+          <p>
+Most services are too specific, leading to more apps needed to do something that is related but outside the functionality
+          </p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section id="problems7">
+          <h2>Problems? [7]</h2>
+          <p>
+Most user experience in current available software are bad
+          </p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section id="problems8">
+          <h2>Problems? [8]</h2>
+          <p>
+Most contribution flow in Wiki is too ridiculously confusing and disorganized to understand for most people, make it hard to actually or have desire to contribute
+          </p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section id="solution" data-background="assets/backgrounds/perseids-stars.jpg">
+          <h2 class="white">Wow, a <u>solution</u>!</h2>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section id="what">
+          <h2>Introducing...</h2>
+          <h1><span class="satellid-logo big">Satellid</span></h1>
+        </section>
+
+        <section id="what">
+          <h2>What is <span class="satellid-logo">Satellid</span>?</h2>
+          <blockquote cite="http://hazeorid.org/satellid/about">
+          &ldquo;<strong>Rapid Micro Knowledge Manager</strong> that makes people or organization manage knowledge better and fast
+          &rdquo;
+          </blockquote>
+        </section>
+
+        <section id="what-more">
+          <h2>Speaking for detail, <span class="satellid-logo">Satellid</span> is...</h2>
+          <ul>
+            <li>for managing any kind of knowledge</li>
+            <li>a <strong>Rapid Micro Knowledge Management System and Platform</strong></li>
+            <li>scientifically defined as a <strong>Modular, Structured, Linked, and Transcluded Micro Knowledge Management System/Platform Using Web Technology with Node.js and JSON-LD.</strong></li>
+          </ul>
+        </section>
+
+        <section id="quick-demo" data-background="assets/backgrounds/perseids-stars.jpg">
+          <h2 class="white">Quick <u>Illustration Time</u>!</h2>
+          <p>
+          With just paper and a text editor
+          </p>
+          <aside class="notes">
+            <ul>
+              <li>Open paper, then draw</li>
+              <li>Open Vim, store a thing then search a thing, then open the files (markdown, HTML, etc)</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section id="illustration-one">
+          <h2>Minimalist One Line Prototype</h2>
+          <pre><code data-trim contenteditable class="rounded">
+# Optional Category
+
+Name | Definition/Description | Anothers (tagline, motto) | http://website.com | @author | #tig #tag
+
+Android | Open Source Mobile Operating System by Google | @google @andyrubin | http://android.com | #android #mobile #os #open #opensource #google
+arkOS | Lightweight Linux-based OS on embedded devices and standalone servers | https://arkos.io | @CitizenWeb, Aaron Griffin, Judd Vinet | #linux #os #embedded #server #arkos
+...
+          </code></pre>
+        </section>
+
+        <section id="illustration-structured">
+          <h2>More Structured Prototype</h2>
+          <p></p>
+          <a href="http://hazeorid.org/satellid" target="_blank">
+            <img class="rounded" height="200px" width="200px" s src="assets/satellid.png" alt="illustration">
+          </a>
+        </section>
+        
+        <section id="illustration-bare">
+          <h2>Bare Document</h2>
+          <p>
+          <pre><code contenteditable class="rounded">
+{
+  "@context": "http://json-ld.org/contexts/person.jsonld",
+  "@id": "http://dbpedia.org/resource/Android",
+  "name": "Android (operating system)",
+  "initial_release: "2008-09-23",
+  "founder": ["Andy Rubin", "Rich Miner", "Nick Sears", "Chris White"]
+  "developer": ["Google","Open Handset Alliance"],
+  "package_manager": ["Google Play", "APK"],
+  "website": "http://android.com"
+}
+          </code></pre>
+          </p>
+        </section>
+
+        <section id="implementation-actual">
+          <h2>Initial Actual Implementation</h2>
+          <p>SPWA: Single Page Web Application</p>
+          <aside class="notes">
+            <ul>
+              <li>Show Evernote</li>
+              <li>Show GMail, Google Inbox, Google Keep</li>
+              <li>Show Wikipedia</li>
+              <li>Show Silk</li>
+              <li>Show Satellid</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section id="implementation-show">
+          <a href="http://hazeorid.org/satellid" target="_blank">
+            <img height="200px" width="200px" s src="assets/satellid.png" alt="illustration">
+          </a>
+        </section>
+
+        <section id="implementation-future">
+          <h2>Future Implementation</h2>
+          <ul>
+            <li>Mobile apps for Android and iOS</li>
+            <li>Analog version in a shape of a paper</li>
+            <li>Wearable apps, and so on</li>
+          </ul>
+          <aside class="notes">
+            <ul>
+              <li>Show mobile Evernote</li>
+              <li>Show mobile GMail, mobile Google Inbox, mobile Google Keep</li>
+              <li>Show mobile Wikipedia</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section id="vs">
+          <h2><span class="satellid-logo">Satellid</span> vs Others</h2>
+          <table>
+            <thead>
+              <tr>
+                <th><u>Type</u></th>
+                <th class="satellite animated pulse">Satellid</th>
+                <th>Evernote</th>
+                <th>Google Keep</th>
+                <th>Wikipedia</th>
+                <th>Silk</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Focus</td>
+                <td class="satellite animated pulse">Knowledge</td>
+                <td>Notes</td>
+                <td>Notes</td>
+                <td>Encyclopedia</td>
+                <td>Data</td>
+              </tr>
+              <tr>
+                <td>Document</td>
+                <td class="satellite animated pulse">JSON</th>
+                <td>ENML</td>
+                <td>JSON/CSON</td>
+                <td>XML/Wiki</td>
+                <td>JSON</td>
+              </tr>
+              <tr>
+                <td>Vision</td>
+                <td class="satellite animated pulse">Ubiquitous</th>
+                <td>Business Work</td>
+                <td>Casual Use</td>
+                <td>Open and Big Data</td>
+                <td>Visualization</td>
+              </tr>
+              <tr>
+                <td>Users</td>
+                <td class="satellite animated pulse">Diagonal</th>
+                <td>Vertical</td>
+                <td>Horizontal</td>
+                <td>Horizontal</td>
+                <td>Diagnoal</td>
+              </tr>
+              <tr></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="principle">
+          <h2>Main Principle of <span class="satellid-logo">Satellid</span></h2>
+          <blockquote cite="http://hazeorid.org/satellid/about">
+          &ldquo;Every knowledge is modularly small, must be structured, linked to each others, and can transclude of various unit of data or information&rdquo;
+          </blockquote>
+        </section>
+
+        <section id="principles">
+          <h2>Principles of <span class="satellid-logo">Satellid</span></h2>
+          <ol>
+            <li>Micro</li>
+            <li>Linked</li>
+            <li>Modular</li>
+            <li>Portable</li>
+            <li>Structured</li>
+            <li>Decentralized</li>
+            <li>Template based</li>
+            <li>Knowledge oriented</li>
+          </ol>
+        </section>
+
+        <section id="full-demo" data-background="assets/backgrounds/perseids-stars.jpg">
+          <h2 class="white">Full <u>Demo Time</u>!</h2>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section id="conclusion">
+          <h2>Conclusion</h2>
+          <ul>
+            <li>Satellid is the rapid way of knowledge management</li>
+            <li>Solves a lot of problems around knowledge at once</li>
+          </ul>
+        </section>
+
+        <section id="any">
+          <h2>Any comments or questions?</h2>
+          <p>
+            <img class="icon" height="300" width="300" src="assets/icons/asteroid.svg" alt="Space shuttle">
+            <br>
+            <small class="credit">
+              "Asteroid icon" designed by <a href="http://thenounproject.com/iainhector">Iain Hector</a> from the <a href="http://thenounproject.com">Noun Project</a>
+            </small>
+          </p>
+          </aside>
+        </section>
+
+        <section id="more-info">
+          <h3>All Assets Repository</h3>
+            <ul>
+              <li><a href="https://github.com/hazeorid/satellid-talk-intro">https://github.com/hazeorid/satellid-talk-intro</a></li>
+              <li><a href="https://github.com/hazeorid/satellid-base">https://github.com/hazeorid/satellid-base</a></li>
+            </ul>
+          <h3>Chat Room</h3>
+            <p>Chat on <a href="https://gitter.im/hazeorid/satellid">https://gitter.im/hazeorid/satellid-base</a></p>
+          <h3>Development Board</h3>
+            <p>Discuss on <a href="http://bit.ly/satellid-trello">http://bit.ly/satellid-trello</a></p>
+          <aside class="notes">
+            This presentation is just a glimpse, a tip of the iceberg, of all things that need to explore and be covered. For complete knowledge, learn more from the additional info and materials.
+          </aside>
+        </section>
+
+        <section id="end" data-background="assets/backgrounds/end.jpg">
+          <h2>Thank You!</h2>
+          <aside class="notes">
+            Thank you
+          </aside>
+        </section>
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+        transitionSpeed: 'slow', // default / fast / slow
+
+        // Parallax scrolling
+        // parallaxBackgroundImage: 'assets/patterns/stardust.png',
+        parallaxBackgroundImage: 'assets/backgrounds/outer-space.jpg',
+        parallaxBackgroundSize: '1920px 1200px',
+        parallaxBackgroundOpacity: 0.3,
+        /*
+          Credits:
+          http://imgstocks.com/outer-space-wallpaper-41243.html
+          http://planezen.com/post/outer-space-hd-background-wallpaper-18-hd-wallpaper.html
+        */
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
